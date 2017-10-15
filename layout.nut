@@ -193,7 +193,7 @@ try {	wheel_fade_ms = my_config["wheel_fade_ms"].tointeger(); } catch ( e ) { }
 // based up on the layout option choice
 if ( my_config["enable_bg"] == "Flyer")
 {
-local bgart = PanAndScanImage( "flyer/[DisplayName]", 0, 0, flw, flh);
+local bgart = PanAndScanImage( "../../menu-art/flyer/[DisplayName]", 0, 0, flw, flh);
 //bgart.trigger = Transition.EndNavigation;
 bgart.preserve_aspect_ratio = true;
 bgart.set_fit_or_fill("fill");
