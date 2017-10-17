@@ -1575,7 +1575,7 @@ function year_formatted()
 
 local gameYearW = flw - crw - bbm - floor( bbh * 2.875 )
 local gameYearH = floor( bbh * 0.15 )
-local gameYear = fe.add_text( "Project HyperPie 2017]", flx + bbm, flh - bbm - gameYearH, gameYearW, gameYearH )
+local gameYear = fe.add_text( "[!year_formatted]", flx + bbm, flh - bbm - gameYearH, gameYearW, gameYearH )
 gameYear.align = Align.Left
 gameYear.style = Style.Regular
 gameYear.nomargin = true
